@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	text-align: center;
+    color: black;
+    background-image: url(https://i.pinimg.com/originals/f9/9e/98/f99e98edfa5d4e53aceb7b563bc339d6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: "Poetsen One";
+    font-weight: bold;
+}
+.titraille {
+    border: solid 5px;
+    border-radius: 500px ;
+    margin: 30px 0;
+    padding: 20px 0px;
+    background-color: hsla(0, 25%, 25%, 0.5);
+    color: white;
+    width: 600px;
+    justify-content: center;
+    margin: auto;
+}
+
+.titraille h2{
+    font-family: Helvetica;
+    font-weight: 100
+}
+.titraille h1{
+    font-weight: 100
+}
+
+.social_medias {
+    
+}
