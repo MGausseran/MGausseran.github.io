@@ -13,20 +13,7 @@ html {
     font-family: "Poetsen One";
     font-weight: bold;
 }
-/*
-.titraille {
-    border: solid 5px;
-    border-radius: 500px ;
-    margin: 30px 0;
-    padding: 20px 0px;
-    background-color: hsla(0, 25%, 25%, 0.5);
-    color: white;
-    width: 600px;
-    height: 120px;
-    justify-content: center;
-    margin: auto;
-}
-*/
+
 .titraille {
     border: solid 5px;
     border-radius: 500px ;
@@ -38,11 +25,11 @@ html {
     height: 120px;
     justify-content: center;
     margin: auto;
-    padding-top: ; /* Valeur initiale de padding-top */
-    width: 600px; /* Valeur initiale de width */
-    height: 150px; /* Valeur initiale de height */ /* Assurez-vous que justify-content fonctionne */
-    justify-content: flex-start; /* Justification initiale */
-    transition: width 0.3s ease, height 0.3s ease, padding-top 0.3s ease; /* Transitions pour les propriétés */
+    padding: auto;
+    width: 600px;
+    height: 150px;
+    justify-content: flex-start;
+    transition: width 0.3s ease, height 0.3s ease, padding-top 0.3s ease;
 }
 .titraille:hover {
     padding-top: 45px;
