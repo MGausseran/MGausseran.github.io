@@ -13,6 +13,7 @@ html {
     font-family: "Poetsen One";
     font-weight: bold;
 }
+/*
 .titraille {
     border: solid 5px;
     border-radius: 500px ;
@@ -21,10 +22,35 @@ html {
     background-color: hsla(0, 25%, 25%, 0.5);
     color: white;
     width: 600px;
+    height: 120px;
     justify-content: center;
     margin: auto;
 }
-
+*/
+.titraille {
+    border: solid 5px;
+    border-radius: 500px ;
+    margin: 30px 0;
+    padding: 30px 0px;
+    background-color: hsla(0, 25%, 25%, 0.5);
+    color: white;
+    width: 600px;
+    height: 120px;
+    justify-content: center;
+    margin: auto;
+    padding-top: ; /* Valeur initiale de padding-top */
+    width: 600px; /* Valeur initiale de width */
+    height: 150px; /* Valeur initiale de height */ /* Assurez-vous que justify-content fonctionne */
+    justify-content: flex-start; /* Justification initiale */
+    transition: width 0.3s ease, height 0.3s ease, padding-top 0.3s ease; /* Transitions pour les propriétés */
+}
+.titraille:hover {
+    padding-top: 45px;
+    justify-content: center;
+    transition: width 0.3s ease, height 0.3s ease, padding-top 0.3s ease;
+    width: 615px;
+    height: 155px;
+}
 .titraille h2{
     font-family: Helvetica;
     font-weight: 100
@@ -40,6 +66,13 @@ html {
 }
 .social_medias i:hover {
     color: hsla(0, 25%, 100%, 0.5);
+}
+.social_medias i:hover {
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease-in;
+}
+
+    
 }
 .social_medias i:visited {
     color: hsla(0, 50%, 100%, 1);;
